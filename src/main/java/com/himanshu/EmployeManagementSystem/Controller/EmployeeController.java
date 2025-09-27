@@ -39,5 +39,10 @@ public void delete(@PathVariable Long id){
         employeeService.delete(id);
     }
 
+    @DeleteMapping()
+    public  void deleteAll(){
+        employeeService.deleteALl();
+    }
+
 
 }

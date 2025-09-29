@@ -42,6 +42,23 @@ Axios (for making API requests)
 Spring Data JPA / Hibernate (for ORM)
 
 Bootstrap or Material UI (for frontend styling)
+# FrontPage
+<img width="1908" height="907" alt="image" src="https://github.com/user-attachments/assets/2707799a-8629-4f4c-9120-afd74cfa5567" />
+
+# Add Employee
+<img width="1898" height="510" alt="image" src="https://github.com/user-attachments/assets/07417ecb-9137-4cf3-9d49-1c52ceb7bc1b" />
+
+# Edit Employee
+<img width="1910" height="796" alt="image" src="https://github.com/user-attachments/assets/575f9920-3c9b-4098-8b8f-9e0a69c11f39" />
+
+# Delete Employee
+<img width="1902" height="471" alt="image" src="https://github.com/user-attachments/assets/653164fe-a67d-48c3-80af-7bbc0972e2e2" />
+
+# Search Employee
+<img width="1901" height="460" alt="image" src="https://github.com/user-attachments/assets/71da138e-302d-4692-9d10-96a23666bd68" />
+
+
+
 
 <h3>Installation</h3>
 

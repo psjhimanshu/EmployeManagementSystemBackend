@@ -1,5 +1,5 @@
 <h1>Employee Management System</h1>
-<h3><Description</h3>
+<h3>Description</h3>
 
 The Employee Management System (EMS) is a full-stack web application designed to manage employee records efficiently. It allows users to perform various operations such as:
 

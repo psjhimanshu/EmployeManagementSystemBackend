@@ -1,5 +1,5 @@
-Employee Management System
-Description
+<h1>Employee Management System</h1>
+<h3><Description</h3>
 
 The Employee Management System (EMS) is a full-stack web application designed to manage employee records efficiently. It allows users to perform various operations such as:
 
@@ -11,7 +11,7 @@ Validation: Ensures proper data entry through frontend validation and backend ch
 
 This system uses Spring Boot for the backend and React for the frontend, offering a seamless user experience for managing employee data.
 
-Features
+<h3>Features</h3>
 
 Create: Add new employee details like name, designation, department, salary, etc.
 
@@ -25,7 +25,7 @@ Search: Find employees quickly using search filters.
 
 Validation: Ensures all required fields are valid before submission (e.g., name, email, salary).
 
-Tech Stack
+<h3>Tech Stack</h3>
 
 Frontend: React.js
 
@@ -43,11 +43,11 @@ Spring Data JPA / Hibernate (for ORM)
 
 Bootstrap or Material UI (for frontend styling)
 
-Installation
+<h3>Installation</h3>
 
 Follow these steps to set up the project locally.
 
-Prerequisites
+<h4>Prerequisites</h4>
 
 Ensure the following are installed:
 
@@ -59,24 +59,24 @@ Node.js and npm (for managing frontend dependencies)
 
 MySQL or any other database system you prefer.
 
-Backend Setup (Spring Boot)
+<h3>Backend Setup (Spring Boot)</h3>
 
-Clone the repository:
+1 .Clone the repository:
 
 git clone https://github.com/psjhimanshu/EmployeManagementSystemBackend
 
 
-Navigate to the backend directory:
+2 .Navigate to the backend directory:
 
 cd EmployeManagementSystemBackend
 
 
-Install dependencies:
+3 .Install dependencies:
 
 mvn install
 
 
-Configure the database connection in src/main/resources/application.properties or application.yml file:
+4 .Configure the database connection in src/main/resources/application.properties or application.yml file:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
 spring.datasource.username=root
@@ -84,35 +84,35 @@ spring.datasource.password=sqlpassword
 spring.jpa.hibernate.ddl-auto=update
 
 
-Run the Spring Boot application:
+5 .Run the Spring Boot application:
 
 mvn spring-boot:run
 
 
-Your backend will be running on http://localhost:8080.
+6 .Your backend will be running on http://localhost:8080.
 
-Frontend Setup (React)
+<h3>Frontend Setup (React)</h3>
 
-Navigate to the frontend directory:
+1 .Navigate to the frontend directory:
 
 cd EmployeManagementSystemFrontend
 
 
-Install necessary dependencies:
+2 .Install necessary dependencies:
 
 npm install
 
 
-Modify API endpoints in the frontend to point to your backend (if necessary). By default, the React app will communicate with the backend running at http://localhost:8080.
+3 .Modify API endpoints in the frontend to point to your backend (if necessary). By default, the React app will communicate with the backend running at http://localhost:8080.
 
-Run the React application:
+4 .Run the React application:
 
 npm start
 
 
-Your frontend will be running on http://localhost:3000.
+5 .Your frontend will be running on http://localhost:3000.
 
-Usage
+<h3>Usage</h3>
 
 Adding a New Employee: Go to the "Add Employee" section in the frontend, enter the employee details, and submit the form to add a new employee.
 
@@ -124,13 +124,13 @@ Deleting an Employee: Click the "Delete" button next to any employee to remove t
 
 Search Employees: Use the search bar to filter employees by name, department, or other criteria.
 
-Validation
+<h3>Validation</h3>
 
 Frontend Validation: Ensures the data entered is valid (e.g., fields like name, salary, email are required, email follows a valid pattern).
 
 Backend Validation: Ensures that no invalid data can be submitted through the API.
 
-Contributing
+<h3>Contributing</h3>
 
 If you'd like to contribute to the project:
 
@@ -153,12 +153,12 @@ git push origin feature-branch
 
 Create a pull request to merge your changes.
 
-License
+<h3>License</h3>
 
 This project is licensed under the MIT License - see the LICENSE
  file for details.
 
-Acknowledgements
+<h3>Acknowledgements</h3>
 
 Spring Boot
  for building the backend.
